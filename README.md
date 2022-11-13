@@ -20,3 +20,7 @@ git clone https://huggingface.co/runwayml/stable-diffusion-v1-5
 ```
 
 It took 23m 38s to render the image, which is extremely slow 🥴
+
+## What's next?
+
+I was able to get this down to ~8m (33 iterations, ~14s/it) with https://github.com/bes-dev/stable_diffusion.openvino. This is not ideal, but it is still almost 3x faster than the original model. Ideally, I should probably invest in a Thunderbolt eGPU or cloud computing.
